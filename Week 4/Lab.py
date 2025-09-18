@@ -29,7 +29,7 @@ for number in range(37,1050 + 1):
         print(number)
 
 '''
-
+'''
 #Question 4
 
 word = ""
@@ -42,3 +42,11 @@ while True:
         word += user_in
 
 print(f"The final word is {word}")
+'''
+
+#Question 5
+
+start = 50
+end = 517
+for i in range (start + 1, end + 1, 2):
+    print(i)
